@@ -2,11 +2,9 @@
 
 You can use the [editor on GitHub](https://github.com/kamalpreetsinghh/My-Portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Most Popular Anime in Japan
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I want to find out the most popular anime in Japan and their genres, and want to know if anime rating has an impact on the number of viewers.
 
 ```markdown
 Syntax highlighted code block
