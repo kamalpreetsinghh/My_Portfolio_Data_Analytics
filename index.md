@@ -116,5 +116,15 @@ The weighted average precision and recall score of the algorithm is 0.97 for bot
 Hence our algorithm is a very good algorithm. We can also increase the sample size to get more accuracy of the algorithm.
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+## About Me
+- 👋 Hi, I’m @kamalpreetsinghh
+- 👀 I’m interested in programming, traveling and photography
+- 🌱 I’m currently learning Python for Data Science
+- 💞️ I’m looking to collaborate on Machine Learning and Deep Learning Projects
+- 📫 How to reach me kamalpreetsingghh@gmail.com
+
+I like to solve machine learning problems which requires out of the box thinking. 
+
+I am good at creating interactive dashboards and SQL for data base operations.
 
