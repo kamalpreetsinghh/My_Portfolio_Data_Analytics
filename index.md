@@ -22,11 +22,11 @@ I have selected anime with number of episodes greater than 1 and ratings greater
 
 1. In the first graph, I have used a line graph to compare the number of viewers with the anime ratings. There is no correlation between the number of viewers and the ratings.
 
-2. In the second graph, I have used a pie chart to find the top five highest rated anime. I have found that the Full Metal Alchemist is the highest rated anime in Japan.
+2. In the second graph, I have used a clustered column chart to find the top five anime with most number of viewers. I have found that Death Note has the highest number of viewers while it has not the highest ratings.
 
-3. In the third graph, I have used a clustered column chart to find the top five anime with most number of viewers. I have found that Death Note has the highest number of viewers while it has not the highest ratings.
+3. In the third graph, I have used a pie chart to find the top five highest rated anime. I have found that the Full Metal Alchemist is the highest rated anime in Japan.
  
-4. In the fourth graph, I have used a Area Chart to find the most viewed genres of anime.
+4. In the fourth graph, I have used a Area Chart to find the most viewed genres of anime. Action and Copmedy anime are most viewed and horror anime are least viewed by the people.
 
 
 ```markdown
