@@ -6,6 +6,16 @@ You can use the [editor on GitHub](https://github.com/kamalpreetsinghh/My-Portfo
 
 I want to find out the most popular anime in Japan and their genres, and want to know if anime rating has an impact on the number of viewers.
 
+The dataset contains names, genres, number of episodes, ratings and number of viewers for an anime.
+
+#### Data Cleansing
+
+I have cleansed the data for creating visualization in Power BI
+
+I have selected anime with number of episodes greater than 1 and ratings greater than 8.5
+
+
+
 ```markdown
 Syntax highlighted code block
 
