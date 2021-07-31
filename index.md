@@ -76,6 +76,8 @@ I have cleansed the data for creating visualization in Power BI
 
 ![Key Statistical Data](https://user-images.githubusercontent.com/88215400/127748005-6ed89cba-ddb0-417e-b788-4cefda42c8a7.png)
 
+### Neural Network Code for Classifying patient into Cancer and No Cancer
+
 ```markdown
 #Create x and y variables
 X = df2.drop('Class', axis = 1).to_numpy()
@@ -90,6 +92,19 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()  
 x_train2 = sc.fit_transform(X_train)
 x_test2 = sc.transform(X_test)
+
+#Script for Neural Network
+from sklearn.neural_network import MLPClassifier  
+mlp = MLPClassifier(hidden_layer_sizes = (9, 4, 2),
+                    activation = 'relu', solver = 'adam',
+                    max_iter = 10000, random_state = 100)  
+mlp.fit(x_train2, y_train) 
+predictions = mlp.predict(x_test2) 
+
+#Evaluation Report and Matrix
+from sklearn.metrics import classification_report, confusion_matrix
+print(confusion_matrix(y_test, predictions))  
+print(classification_report(y_test, predictions, target_names = ['No Cancer', 'Cancer'])) 
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
