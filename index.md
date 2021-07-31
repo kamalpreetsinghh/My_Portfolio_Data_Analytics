@@ -1,12 +1,12 @@
-## Most Popular Anime in Japan
+# 1. Most Popular Anime in Japan
 
 I want to find out the most popular anime in Japan and their genres, and want to know if anime rating has an impact on the number of viewers
-
-The dataset contains names, genres, number of episodes, ratings and number of viewers for an anime
 
 ### Data Collection
 
 I have downloaded the dataset from data.world
+
+The dataset contains names, genres, number of episodes, ratings and number of viewers for an anime
 
 ### Data Cleansing
 
@@ -28,6 +28,35 @@ I have selected anime with number of episodes greater than 1 and ratings greater
  
 4. In the fourth graph, I have used a Area Chart to find the most viewed genres of anime. Action and Copmedy anime are most viewed and horror anime are least viewed by the people.
 
+# 2. Analysis of US Hotels 
+
+I want to find out the most popular destinations of hotels in US.
+
+### Data Collection
+
+I have downloaded the dataset from [data.world](https://data.world/datafiniti/hotel-reviews)
+
+The dataset contains names, cities, states, ratings, date of stay and number of viewers for a hotel
+
+### Data Cleansing
+
+I have cleansed the data for creating visualization in Power BI
+
+I have selected top 6 cities with most number of hotels in US
+
+### Dashboard
+
+![Image of Hotel Dashboard](https://user-images.githubusercontent.com/88215400/127747552-cb938089-142f-4ec4-95da-fa1d85aa53e4.png)
+
+### Insights
+
+1. In the first graph, I have used a vertical bar chart to compare the number of hotels in major US cities. It is clearly visible from the chart that Las Vegas has the greatest number of hotels and Los Angeles has the minimum number of hotels. Vertical Bar Charts are great for comparing data
+
+2. In the second graph, I have used a line chart to compare the average hotel ratings from 2015 to 2018. I have found that the hotel ratings increase from 2015 to 2017 and then decreases to 2018. Customers are most satisfied with their hotels in 2017. Line chart is great for data with timelines.
+
+3. In the third graph, I have used a pie chart to visualize the composition of average hotel ratings in US. All the US states have almost similar average hotel ratings which means the customers are equally satisfied with their hotels in the US.
+
+4. In the fourth graph, I have used a Waterfall graph to see the number of ratings in the major US cities and the total number of ratings. It will help me in understanding the variation in population of different cities which is giving hotel reviews.
 
 ```markdown
 Syntax highlighted code block
