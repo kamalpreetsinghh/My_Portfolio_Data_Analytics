@@ -60,6 +60,22 @@ I have selected top 6 cities with most number of hotels in US
 
 4. In the fourth graph, I have used a Waterfall graph to see the number of ratings in the major US cities and the total number of ratings. It will help me in understanding the variation in population of different cities which is giving hotel reviews.
 
+# 3. Cancer Analysis Using Neural Networks
+
+I have used a cancer dataset to find if a patient has cancer or no cancer based on the variables like clump thickness, mitosis, etc. using Neural Networks 
+
+### Data Collection 
+
+I have downloaded the dataset from data.world The dataset contains clumpthickness, mitosis, bland chromatin, normal nucleoli, marginal adhesion, bare nucleoli values of a patient. 
+
+### Data Cleansing 
+
+I have cleansed the data for creating visualization in Power BI
+
+### Key Statistical Data
+
+![Key Statistical Data](https://user-images.githubusercontent.com/88215400/127748005-6ed89cba-ddb0-417e-b788-4cefda42c8a7.png)
+
 ```markdown
 Syntax highlighted code block
 
