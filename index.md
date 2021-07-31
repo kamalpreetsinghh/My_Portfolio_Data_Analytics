@@ -1,3 +1,5 @@
+# Projects
+
 # 1. Most Popular Anime in Japan
 
 I want to find out the most popular anime in Japan and their genres, and want to know if anime rating has an impact on the number of viewers
