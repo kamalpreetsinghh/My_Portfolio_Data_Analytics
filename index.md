@@ -107,5 +107,14 @@ print(confusion_matrix(y_test, predictions))
 print(classification_report(y_test, predictions, target_names = ['No Cancer', 'Cancer'])) 
 ```
 
+### Classification Report
+
+![Classification_Report](https://user-images.githubusercontent.com/88215400/127748212-35172c4b-d51b-4ffa-9322-f962eafb026f.png)
+
+### Evaluate the algorithm.
+The weighted average precision and recall score of the algorithm is 0.97 for both which is a very good score, and the dataset size is 137 which is a decent size of a dataset. The precision and recall score for no cancer are 0.97 and 0.99 respectively, and for cancer are 0.98 and 0.94 respectively which are very good metrics for an algorithm.
+Hence our algorithm is a very good algorithm. We can also increase the sample size to get more accuracy of the algorithm.
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
