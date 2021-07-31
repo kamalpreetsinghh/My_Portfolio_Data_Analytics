@@ -14,6 +14,7 @@ I have cleansed the data for creating visualization in Power BI
 
 I have selected anime with number of episodes greater than 1 and ratings greater than 8.5
 
+![alt text](https://github.com/kamalpreetsinghh/My-Portfolio/images/anime_dashboard.png "Dashboard")
 
 
 ```markdown
