@@ -1,4 +1,4 @@
-# Projects
+r# Projects
 
 # 1. Most Popular Anime in Japan
 
@@ -126,5 +126,5 @@ Hence our algorithm is a very good algorithm. We can also increase the sample si
 
 I like to solve machine learning problems which requires out of the box thinking. 
 
-I am good at creating interactive dashboards and SQL for data base operations.
+I am good at creating interactive dashboards and SQL for database operations.
 
