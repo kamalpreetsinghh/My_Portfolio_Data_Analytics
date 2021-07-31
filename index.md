@@ -77,21 +77,19 @@ I have cleansed the data for creating visualization in Power BI
 ![Key Statistical Data](https://user-images.githubusercontent.com/88215400/127748005-6ed89cba-ddb0-417e-b788-4cefda42c8a7.png)
 
 ```markdown
-Syntax highlighted code block
+`#Create x and y variables
+X = df2.drop('Class', axis = 1).to_numpy()
+y = df2['Class'].to_numpy()
 
-# Header 1
-## Header 2
-### Header 3
+#Create Train and Test datasets
+from sklearn.model_selection import train_test_split  
+X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size = 0.20, random_state = 100)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#Scale the data
+from sklearn.preprocessing import StandardScaler  
+sc = StandardScaler()  
+x_train2 = sc.fit_transform(X_train)
+x_test2 = sc.transform(X_test)`
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
