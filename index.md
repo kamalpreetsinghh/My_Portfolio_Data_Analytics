@@ -1,4 +1,4 @@
-r# Projects
+# Projects
 
 # 1. Most Popular Anime in Japan
 
