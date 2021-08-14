@@ -128,3 +128,5 @@ I like to solve machine learning problems which requires out of the box thinking
 
 I am good at creating interactive dashboards and SQL for database operations.
 
+[Future Roadmap](https://kamalpreetsinghh.github.io/About/)
+
